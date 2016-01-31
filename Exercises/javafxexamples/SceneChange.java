@@ -16,7 +16,7 @@ public class SceneChange extends Application {
 	public void start(Stage stage) {
 		try {
 			 window=stage;
-			Label lb1= new Label("This is the first Scene");
+			EnumTest lb1= new EnumTest("This is the first Scene");
 			Button btn1=new Button("go to Scene two");
 			btn1.setOnAction(e->window.setScene(scene2));
 			
